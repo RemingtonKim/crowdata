@@ -11,6 +11,8 @@ Crowdata users list a price that they will pay for each piece of data they get. 
 
 
 ## Instructions
+
+crowdata is not hosted anymore, but you can clone the repo and run it on localhost yourself
 1. In root directoy run `npm install` to install dependencies.
 2. In client directory, run `npm install to install dependencies.
 3. Go to `client\src\components\googleButton.jsx`. This is where the Google OAuth is handled. Create your [Google OAuth](https://developers.google.com/identity/protocols/oauth2) credentials and set `CLIENT_ID` to it.
