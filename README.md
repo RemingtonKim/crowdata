@@ -1,5 +1,7 @@
 # crowdata
 
+![](client\src\imgs\logo.png)
+
 The platform to collect data for machine and deep learning while eliminating middlemene through crowdsourcing. You make the listing. You set the price. You get the data <br>
 Crowdata allows you to request specific data for you machine or deep learning needs while supplying datat to those who need it and making money in the process!
 <br>
