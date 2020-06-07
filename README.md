@@ -1,5 +1,5 @@
 # crowdata
-
+## A Hack the Northeast submission<br>
 ![](https://raw.githubusercontent.com/RemingtonKim/crowdata/master/client/src/imgs/logo.png?token=AMV4ACLCEMRJQXRVKWF4HMS64YNHG)
 
 The platform to collect data for machine and deep learning while eliminating middlemene through crowdsourcing. You make the listing. You set the price. You get the data <br>
