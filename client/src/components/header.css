@@ -1,0 +1,14 @@
+.icon-rotated-down{
+    transform: rotate(90deg);
+    transition-duration: 0.5s;
+  }
+  
+  .icon-rotated-up{
+    transform: rotate(0deg);
+    transition-duration: 0.5s;
+  }
+  
+  .links:hover{
+    background-color: #bfbfbf !important;
+  }
+  
