@@ -14,7 +14,7 @@ app.use(cors());
 app.use(bodyParser.json({ limit: "100mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "100mb", extended: true, parameterLimit: 50000 }));
 
-const uri = "mongodb+srv://remkim_mongo:4LpUr4Bn3hvy6AK2@crowdata-dzpbu.gcp.mongodb.net/<crowdata_database>?retryWrites=true&w=majority";
+const uri = YOUR_MONGODB_DATABASE_URI;
 mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true }
 );
 

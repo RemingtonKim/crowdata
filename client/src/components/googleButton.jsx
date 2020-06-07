@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { GoogleLogin, GoogleLogout } from 'react-google-login';
 import axios from 'axios';
 
-const CLIENT_ID = '281859763334-53boibb0fpsslcs8kr176j2jc2meeim5.apps.googleusercontent.com';
+const CLIENT_ID = YOUR_GOOGLE_OAUTH_KEY;
 
 class GoogleBtn extends Component {
     constructor(props) {
