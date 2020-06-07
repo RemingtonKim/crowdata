@@ -6,6 +6,10 @@ The platform to collect data for machine and deep learning while eliminating mid
 Crowdata allows you to request specific data for you machine or deep learning needs while supplying datat to those who need it and making money in the process!
 <br>
 
+## Business plan
+Crowdata users list a price that they will pay for each piece of data they get. It can be $0.1, $0.5, or anything else. As a business, crowdata can take a percentage of these price listings as a fee for using the platform. This allows crowdata to make revenue. Services like Amazon Mechanical Turk exist but that is mostly for annotating data and classifying images, not requesting specific data that you need for your project. Also, Amazon Mechanical Turk requires training and a registration process, but crowdata is a simple Google login. This allows users to get right to asking for data or supplying data and making some money on the side. 
+
+
 ## Instructions
 1. In root directoy run `npm install` to install dependencies.
 2. In client directory, run `npm install to install dependencies.
