@@ -11,7 +11,7 @@ class About extends Component {
 
                     </div>
                     <h1 style={{ textAlign: 'center', fontSize: 35, color: 'white', marginLeft: '2%', marginRight: '2%' }}>
-                        The platform to collect data for machine and deep learning while eliminating middlemen through crowdsourcing.
+                        The         platform to collect data for machine and deep learning while eliminating middlemen through crowdsourcing.
                     </h1>
                     <br></br>
                     <h1 style={{ textAlign: 'center', fontSize: 35, color: 'white' }}>

@@ -4,6 +4,8 @@ import './header.css'
 import { Navbar, Nav, Card, Badge, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faBars, faClock, faCheck } from '@fortawesome/free-solid-svg-icons'
+import './myListings.css'
+
 
 class MyListings extends Component {
     constructor(props) {
@@ -79,11 +81,21 @@ class MyListings extends Component {
                                                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                                                         <FontAwesomeIcon icon={faCheck} size='4x' color="#00ab14" style={{ margin: 10 }} />
                                                     </div>
-                                                    <a href={entry.images[0]} download>
-                                                        <Badge size="lg" style={{ backgroundColor: '#00ab14' }}>
-                                                            <h5 style={{ color: 'white' }}>Download your data</h5>
-                                                        </Badge>
-                                                    </a>
+                                                    <Badge className="download" size="lg" style={{ backgroundColor: '#00ab14' }} onClick={() => {
+                                                        let link = document.createElement('a');
+
+                                                        link.setAttribute('download', 'data');
+                                                        link.style.display = 'none';
+                                                        document.body.appendChild(link);
+                                                        let i;
+                                                        for (i = 0; i < entry.images.length; i++) {
+                                                            link.setAttribute('href', entry.images[i]);
+                                                            link.click();
+                                                        }
+                                                        document.body.removeChild(link)
+                                                    }}>
+                                                        <h5 style={{ color: 'white' }}>Download your data</h5>
+                                                    </Badge>
                                                 </div>
                                                 :
                                                 <div>
